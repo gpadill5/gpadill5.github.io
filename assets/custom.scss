@@ -203,12 +203,8 @@ body {
 }
 
 @supports (background: -webkit-named-image(i)) {
-  .home-about,
-  .home-about *,
-  .site-brand,
-  .site-brand *,
-  .post-pagination,
-  .post-pagination * {
+  body,
+  body * {
     font-synthesis: none;
   }
 }
