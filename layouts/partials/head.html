@@ -5,8 +5,8 @@
   {{ `<!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->` | safeHTML }}
   <link rel="shortcut icon" href="{{ .Site.Params.favicon }}" type="image/x-icon">
   <link rel="icon" href="{{ .Site.Params.favicon }}" sizes="any">
-  <link rel="icon" href="{{ "img/favicon-ice-star.png" | relURL }}" type="image/png">
-  <link rel="apple-touch-icon" href="{{ "img/favicon-ice-star.png" | relURL }}">
+  <link rel="icon" href="{{ "img/favicon-gray-star.png" | relURL }}" type="image/png">
+  <link rel="apple-touch-icon" href="{{ "img/favicon-gray-star.png" | relURL }}">
   {{ range .AlternativeOutputFormats }}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end }}

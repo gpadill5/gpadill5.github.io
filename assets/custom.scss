@@ -204,7 +204,11 @@ body {
 
 @supports (background: -webkit-named-image(i)) {
   .home-about,
-  .home-about * {
+  .home-about *,
+  .site-brand,
+  .site-brand *,
+  .post-pagination,
+  .post-pagination * {
     font-synthesis: none;
   }
 }
