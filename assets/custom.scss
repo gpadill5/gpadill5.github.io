@@ -202,6 +202,13 @@ body {
   text-decoration: none;
 }
 
+@supports (background: -webkit-named-image(i)) {
+  .home-about,
+  .home-about * {
+    font-synthesis: none;
+  }
+}
+
 .video-row {
   display: grid;
   gap: 1rem;
