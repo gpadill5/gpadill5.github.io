@@ -1,5 +1,6 @@
 .DS_Store
 .hugo_build.lock
+.hugo-bin/
 resources/
 public/
 .claude/
